@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require './lib/all_recipes'
+
+AllRecipes::CLI.new.call
